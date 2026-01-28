@@ -1,0 +1,39 @@
+{
+  "$schema": "https://synapsync.dev/schemas/cognitive-manifest.json",
+  "name": "skill-creator",
+  "type": "skill",
+  "version": "3.0.0",
+  "description": "Creates AI skills following SynapSync spec with templates and best practices",
+  "author": {
+    "name": "SynapSync",
+    "url": "https://github.com/SynapSync",
+    "email": "hello@synapsync.dev"
+  },
+  "license": "Apache-2.0",
+  "category": "general",
+  "tags": [
+    "skill",
+    "creator",
+    "templates",
+    "meta",
+    "documentation",
+    "ai-instructions",
+    "best-practices"
+  ],
+  "providers": [
+    "claude",
+    "openai",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "gemini"
+  ],
+  "file": "SKILL.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SynapSync/synapse-registry"
+  },
+  "homepage": "https://synapsync.dev/cognitives/skill-creator",
+  "createdAt": "2026-01-20T00:00:00Z",
+  "updatedAt": "2026-01-28T00:00:00Z"
+}
